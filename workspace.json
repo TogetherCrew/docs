@@ -1,0 +1,356 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-05-04T16:54:36Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgIkEgY29tbXVuaXR5IG1hbmFnZXIuIgogICAgICAgIAogICAgICAgIGRpc2NvcmQgPSBzb2Z0d2FyZVN5c3RlbSAiRGlzY29yZCBBUEkiICIiICJFeHRlcm5hbCIKICAgICAgICAKICAgICAgICBncm91cCAiVG9nZXRoZXJDcmV3IiB7CiAgICAgICAgCiAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlRvZ2V0aGVyQ3JldyBTeXN0ZW0iIHsKICAgICAgICAKICAgICAgICAgICAgICAgIHVpQ29tbSA9IGNvbnRhaW5lciAidWlDb21tIiAiVHlwZXNjcmlwdCBhbmQgTmV4dC5qcyIKICAgICAgICAgICAgICAgIHNlcnZlckNvbW0gPSBjb250YWluZXIgInNlcnZlckNvbW0iICJUeXBlc2NyaXB0IGFuZCBFeHByZXNzLmpzIgogICAgICAgICAgICAgICAgYm90Q29tbSA9IGNvbnRhaW5lciAiYm90Q29tbSIgIkphdmFzY3JpcHQiCiAgICAgICAgICAgICAgICBkYW9seXRpY3MgPSBjb250YWluZXIgIkRBT2x5dGljcyIgIlB5dGhvbiIKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgcmFiYml0bXEgPSBjb250YWluZXIgIlJhYmJpdE1RIiAiTWVzc2FnZSBicm9rZXIiCgogICAgICAgICAgICAgICAgbW9uZ29kYiA9IGNvbnRhaW5lciAiTW9uZ29EQiIgIkFjY291bnQgYW5kIGFuYWx5dGljcyBkYXRhIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBuZW80aiA9IGNvbnRhaW5lciAiTmVvNGoiICJBbmFseXRpY3MgZGF0YSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIkRhdGFiYXNlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAjIHJlbGF0aW9uc2hpcCBiZXR3ZWVuIHBlb3BsZSBhbmQgc29mdHdhcmUgc3lzdGVtcwogICAgICAgICAgICB1c2VyIC0+IHNvZnR3YXJlU3lzdGVtICJWaWV3IG1ldHJpY3MsIGNvbmZpZ3VyZSBzZXR0aW5ncyIKICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW0gLT4gZGlzY29yZCAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICAgICAgCiAgICAgICAgICAgICMgcmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbnRhaW5lcnMKICAgICAgICAgICAgdXNlciAtPiB1aUNvbW0gIlZpc2l0cyBhcHAudG9nZXRoZXJjcmV3LmNvbSB1c2luZyIgIkhUVFBTIgogICAgICAgICAgICB1aUNvbW0gLT4gc2VydmVyQ29tbSAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICAgICAgc2VydmVyQ29tbSAtPiBtb25nb2RiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJXaXJlIFByb3RvY29sL1RDUCIKICAgICAgICAgICAgc2VydmVyQ29tbSAtPiBuZW80aiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiQm9sdCBQcm90b2NvbC9UQ1AiCiAgICAgICAgICAgIHNlcnZlckNvbW0gLT4gcmFiYml0bXEgIkVtaXRzIGFuZCBsaXN0ZW5zIHRvIGV2ZW50cyB1c2luZyIgIkFNUVAiCiAgICAgICAgICAgIGJvdENvbW0gLT4gcmFiYml0bXEgIkVtaXRzIGFuZCBsaXN0ZW5zIHRvIGV2ZW50cyB1c2luZyIgIkFNUVAiCiAgICAgICAgICAgIGJvdENvbW0gLT4gbW9uZ29kYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiV2lyZSBQcm90b2NvbC9UQ1AiCiAgICAgICAgICAgIGJvdENvbW0gLT4gZGlzY29yZCAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICAgICAgZGFvbHl0aWNzIC0+IG1vbmdvZGIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIgIldpcmUgUHJvdG9jb2wvVENQIgogICAgICAgICAgICBkYW9seXRpY3MgLT4gcmFiYml0bXEgIkVtaXRzIGFuZCBsaXN0ZW5zIHRvIGV2ZW50cyB1c2luZyIgIkFNUVAiCiAgICAgICAgICAgIGRhb2x5dGljcyAtPiBuZW80aiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiQm9sdCBQcm90b2NvbC9UQ1AiCiAgICAgICAgICAgIAogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAKICAgICAgICBzeXN0ZW1Db250ZXh0IHNvZnR3YXJlU3lzdGVtICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIyBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIAogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDdXN0b21lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQmFuayBTdGFmZiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJFeHRlcm5hbCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRmFpbG92ZXIiIHsKICAgICAgICAgICAgICAgIG9wYWNpdHkgMjUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "User",
+      "description" : "A community manager.",
+      "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "View metrics, configure settings"
+      }, {
+        "id" : "13",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Visits app.togethercrew.com using",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "discord"
+      },
+      "name" : "Discord API",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "softwaresystem"
+      },
+      "name" : "TogetherCrew System",
+      "relationships" : [ {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "2",
+        "description" : "Makes API calls to",
+        "technology" : "JSON/HTTPS"
+      } ],
+      "group" : "TogetherCrew",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "servercomm"
+        },
+        "name" : "serverComm",
+        "description" : "Typescript and Express.js",
+        "relationships" : [ {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "9",
+          "description" : "Reads from and writes to",
+          "technology" : "Wire Protocol/TCP"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "10",
+          "description" : "Reads from and writes to",
+          "technology" : "Bolt Protocol/TCP"
+        }, {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "8",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "uicomm"
+        },
+        "name" : "uiComm",
+        "description" : "Typescript and Next.js",
+        "relationships" : [ {
+          "id" : "14",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "5",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mongodb"
+        },
+        "name" : "MongoDB",
+        "description" : "Account and analytics data",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "rabbitmq"
+        },
+        "name" : "RabbitMQ",
+        "description" : "Message broker",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "daolytics"
+        },
+        "name" : "DAOlytics",
+        "description" : "Python",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "9",
+          "description" : "Reads from and writes to",
+          "technology" : "Wire Protocol/TCP"
+        }, {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "8",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "10",
+          "description" : "Reads from and writes to",
+          "technology" : "Bolt Protocol/TCP"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "botcomm"
+        },
+        "name" : "botComm",
+        "description" : "Javascript",
+        "relationships" : [ {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "8",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "9",
+          "description" : "Reads from and writes to",
+          "technology" : "Wire Protocol/TCP"
+        }, {
+          "id" : "20",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "2",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "neo4j"
+        },
+        "name" : "Neo4j",
+        "description" : "Analytics data",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 3508
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 994,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 1720,
+        "y" : 300
+      }, {
+        "id" : "4",
+        "x" : 965,
+        "y" : 900
+      }, {
+        "id" : "5",
+        "x" : 970,
+        "y" : 1500
+      }, {
+        "id" : "6",
+        "x" : 1720,
+        "y" : 1500
+      }, {
+        "id" : "7",
+        "x" : 219,
+        "y" : 1500
+      }, {
+        "id" : "8",
+        "x" : 970,
+        "y" : 2645
+      }, {
+        "id" : "9",
+        "x" : 1720,
+        "y" : 2100
+      }, {
+        "id" : "10",
+        "x" : 219,
+        "y" : 2100
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Customer",
+          "background" : "#08427b"
+        }, {
+          "tag" : "Bank Staff",
+          "background" : "#999999"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "External",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Failover",
+          "opacity" : 25
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Container-001"
+    }
+  }
+}
