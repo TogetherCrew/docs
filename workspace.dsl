@@ -81,7 +81,7 @@ workspace {
     
         systemContext softwareSystem "SystemContext" {
             include *
-            autoLayout
+            # autoLayout
         }
 
         container softwareSystem {
