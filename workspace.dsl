@@ -10,7 +10,40 @@ workspace {
             softwareSystem = softwareSystem "TogetherCrew System" {
         
                 uiComm = container "uiComm" "Typescript and Next.js"
-                serverComm = container "serverComm" "Typescript and Express.js"
+                serverComm = container "serverComm" "Typescript and Express.js" {
+                    group "Controllers" {
+                        authController = component "Auth Controller"
+                        guildController = component "Guild Controller"
+                        heatmapController = component "Heatmap Controller"
+                        memberActivityController = component "Member Activity Controller"
+                        notionController = component "Notion Controller"
+                        userController = component "User Controller"
+                    }
+
+                    group "Services" {
+                        authService = component "Auth Service"
+                        guildService = component "Guild Service"
+                        heatmapService = component "Heatmap Service"
+                        memberActivityService = component "Member Activity Service"
+                        tokenService = component "Token Service"
+                        userService = component "User Service"
+                    }
+
+                    # relationships between controllers and services
+                    authController -> userService
+                    authController -> authService
+                    authController -> tokenService
+                    authController -> guildService
+                    guildController -> guildService
+                    guildController -> userService
+                    guildController -> authService
+                    heatmapController -> guildService
+                    heatmapController -> heatmapService
+                    memberActivityController -> guildService
+                    memberActivityController -> memberActivityService
+                    userController -> tokenService
+                    userController -> userService
+                }
                 botComm = container "botComm" "Javascript"
                 daolytics = container "DAOlytics" "Python"
                 
@@ -20,7 +53,7 @@ workspace {
                     tags "Database"
                 }
                 neo4j = container "Neo4j" "Analytics data" {
-                    tags "Database"
+                    tags "Database", "Target"
                 }
             }
             
@@ -32,7 +65,7 @@ workspace {
             user -> uiComm "Visits app.togethercrew.com using" "HTTPS"
             uiComm -> serverComm "Makes API calls to" "JSON/HTTPS"
             serverComm -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            serverComm -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
+            serverComm -> neo4j "Reads from" "Bolt Protocol/TCP" "Target"
             serverComm -> rabbitmq "Emits and listens to events using" "AMQP"
             botComm -> rabbitmq "Emits and listens to events using" "AMQP"
             botComm -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
@@ -54,6 +87,11 @@ workspace {
         container softwareSystem {
             include *
             # autoLayout
+        }
+
+        component serverComm {
+            include *
+            autoLayout
         }
         
         theme default
@@ -97,6 +135,9 @@ workspace {
             }
             element "Failover" {
                 opacity 25
+            }
+            element "Target" {
+                opacity 50
             }
         }
     }
