@@ -4,48 +4,20 @@ workspace {
         user = person "User" "A community manager."
         
         discord = softwareSystem "Discord API" "" "External"
+        twitter = softwareSystem "Twitter API" "" "External"
         
         group "TogetherCrew" {
         
             softwareSystem = softwareSystem "TogetherCrew System" {
         
-                uiComm = container "uiComm" "Typescript and Next.js"
-                serverComm = container "serverComm" "Typescript and Express.js" {
-                    group "Controllers" {
-                        authController = component "Auth Controller"
-                        guildController = component "Guild Controller"
-                        heatmapController = component "Heatmap Controller"
-                        memberActivityController = component "Member Activity Controller"
-                        notionController = component "Notion Controller"
-                        userController = component "User Controller"
-                    }
+                frontend = container "frontend" "Typescript and Next.js"
+                api = container "api" "Typescript and Express.js"
 
-                    group "Services" {
-                        authService = component "Auth Service"
-                        guildService = component "Guild Service"
-                        heatmapService = component "Heatmap Service"
-                        memberActivityService = component "Member Activity Service"
-                        tokenService = component "Token Service"
-                        userService = component "User Service"
-                    }
+                discordBot = container "Discord bot" "Javascript"
+                discordAnalyzer = container "Discord analyzer" "Python"
 
-                    # relationships between controllers and services
-                    authController -> userService
-                    authController -> authService
-                    authController -> tokenService
-                    authController -> guildService
-                    guildController -> guildService
-                    guildController -> userService
-                    guildController -> authService
-                    heatmapController -> guildService
-                    heatmapController -> heatmapService
-                    memberActivityController -> guildService
-                    memberActivityController -> memberActivityService
-                    userController -> tokenService
-                    userController -> userService
-                }
-                botComm = container "botComm" "Javascript"
-                daolytics = container "DAOlytics" "Python"
+                twitterBot = container "Twitter bot" "Python"
+                twitterAnalyzer = container "Twitter analyzer" "Python"
                 
                 rabbitmq = container "RabbitMQ" "Message broker"
 
@@ -53,7 +25,7 @@ workspace {
                     tags "Database"
                 }
                 neo4j = container "Neo4j" "Analytics data" {
-                    tags "Database", "Target"
+                    tags "Database"
                 }
             }
             
@@ -62,18 +34,28 @@ workspace {
             softwareSystem -> discord "Makes API calls to" "JSON/HTTPS"
             
             # relationships to/from containers
-            user -> uiComm "Visits app.togethercrew.com using" "HTTPS"
-            uiComm -> serverComm "Makes API calls to" "JSON/HTTPS"
-            serverComm -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            serverComm -> neo4j "Reads from" "Bolt Protocol/TCP" "Target"
-            serverComm -> rabbitmq "Emits and listens to events using" "AMQP"
-            botComm -> rabbitmq "Emits and listens to events using" "AMQP"
-            botComm -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            botComm -> discord "Makes API calls to" "JSON/HTTPS"
-            daolytics -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            daolytics -> rabbitmq "Emits and listens to events using" "AMQP"
-            daolytics -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
+            user -> frontend "Visits app.togethercrew.com using" "HTTPS"
+            frontend -> api "Makes API calls to" "JSON/HTTPS"
+            api -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
+            api -> neo4j "Reads from" "Bolt Protocol/TCP" "Target"
+            api -> rabbitmq "Emits and listens to events using" "AMQP"
+
+            discordBot -> rabbitmq "Emits and listens to events using" "AMQP"
+            discordBot -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
+            discordBot -> discord "Makes API calls to" "JSON/HTTPS"
+
+            discordAnalyzer -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
+            discordAnalyzer -> rabbitmq "Emits and listens to events using" "AMQP"
+            discordAnalyzer -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
             
+            twitterBot -> rabbitmq "Emits and listens to events using" "AMQP"
+            # twitterBot -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
+            twitterBot -> twitter "Makes API calls to" "JSON/HTTPS"
+
+            # twitterAnalyzer -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
+            twitterAnalyzer -> rabbitmq "Emits and listens to events using" "AMQP"
+            twitterAnalyzer -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
+
         }
     }
 
@@ -81,15 +63,10 @@ workspace {
     
         systemContext softwareSystem "SystemContext" {
             include *
-            # autoLayout
+            autoLayout
         }
 
         container softwareSystem {
-            include *
-            # autoLayout
-        }
-
-        component serverComm {
             include *
             autoLayout
         }
