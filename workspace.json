@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Name",
   "description" : "Description",
-  "lastModifiedDate" : "2023-07-18T08:34:02Z",
+  "lastModifiedDate" : "2023-07-18T08:40:08Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgIkEgY29tbXVuaXR5IG1hbmFnZXIiCiAgICAgICAgZW5naW5lZXIgPSBwZXJzb24gIkVuZ2luZWVyIiAiQSBUb2dldGhlckNyZXcgZW5naW5lZXIiCiAgICAgICAgCiAgICAgICAgZGlzY29yZCA9IHNvZnR3YXJlU3lzdGVtICJEaXNjb3JkIEFQSSIgIiIgIkV4dGVybmFsIgogICAgICAgIHR3aXR0ZXIgPSBzb2Z0d2FyZVN5c3RlbSAiVHdpdHRlciBBUEkiICIiICJFeHRlcm5hbCIKICAgICAgICAKICAgICAgICBncm91cCAiVG9nZXRoZXJDcmV3IiB7CiAgICAgICAgCiAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlRvZ2V0aGVyQ3JldyBTeXN0ZW0iIHsKICAgICAgICAKICAgICAgICAgICAgICAgIGZyb250ZW5kID0gY29udGFpbmVyICJmcm9udGVuZCIgIlR5cGVzY3JpcHQgYW5kIE5leHQuanMiCiAgICAgICAgICAgICAgICBhcGkgPSBjb250YWluZXIgImFwaSIgIlR5cGVzY3JpcHQgYW5kIEV4cHJlc3MuanMiCgogICAgICAgICAgICAgICAgZGlzY29yZEJvdCA9IGNvbnRhaW5lciAiRGlzY29yZCBib3QiICJKYXZhc2NyaXB0IgogICAgICAgICAgICAgICAgZGlzY29yZEFuYWx5emVyID0gY29udGFpbmVyICJEaXNjb3JkIGFuYWx5emVyIiAiUHl0aG9uIgoKICAgICAgICAgICAgICAgIHR3aXR0ZXJCb3QgPSBjb250YWluZXIgIlR3aXR0ZXIgYm90IiAiUHl0aG9uIgogICAgICAgICAgICAgICAgdHdpdHRlckFuYWx5emVyID0gY29udGFpbmVyICJUd2l0dGVyIGFuYWx5emVyIiAiUHl0aG9uIgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICByYWJiaXRtcSA9IGNvbnRhaW5lciAiUmFiYml0TVEiICJNZXNzYWdlIGJyb2tlciIKCiAgICAgICAgICAgICAgICBtb25nb2RiID0gY29udGFpbmVyICJNb25nb0RCIiAiQWNjb3VudCBhbmQgYW5hbHl0aWNzIGRhdGEiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJEYXRhYmFzZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG5lbzRqID0gY29udGFpbmVyICJOZW80aiIgIkFuYWx5dGljcyBkYXRhIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgICMgcmVsYXRpb25zaGlwIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgICAgIHVzZXIgLT4gc29mdHdhcmVTeXN0ZW0gIlZpZXcgbWV0cmljcywgY29uZmlndXJlIHNldHRpbmdzIgogICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbSAtPiBkaXNjb3JkICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICAKICAgICAgICAgICAgIyByZWxhdGlvbnNoaXBzIHRvL2Zyb20gY29udGFpbmVycwogICAgICAgICAgICB1c2VyIC0+IGZyb250ZW5kICJWaXNpdHMgYXBwLnRvZ2V0aGVyY3Jldy5jb20gdXNpbmciICJIVFRQUyIKICAgICAgICAgICAgZnJvbnRlbmQgLT4gYXBpICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICBhcGkgLT4gbW9uZ29kYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiV2lyZSBQcm90b2NvbC9UQ1AiCiAgICAgICAgICAgIGFwaSAtPiBuZW80aiAiUmVhZHMgZnJvbSIgIkJvbHQgUHJvdG9jb2wvVENQIiAiVGFyZ2V0IgogICAgICAgICAgICBhcGkgLT4gcmFiYml0bXEgIkVtaXRzIGFuZCBsaXN0ZW5zIHRvIGV2ZW50cyB1c2luZyIgIkFNUVAiCgogICAgICAgICAgICBkaXNjb3JkQm90IC0+IHJhYmJpdG1xICJFbWl0cyBhbmQgbGlzdGVucyB0byBldmVudHMgdXNpbmciICJBTVFQIgogICAgICAgICAgICBkaXNjb3JkQm90IC0+IG1vbmdvZGIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIgIldpcmUgUHJvdG9jb2wvVENQIgogICAgICAgICAgICBkaXNjb3JkQm90IC0+IGRpc2NvcmQgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCgogICAgICAgICAgICBkaXNjb3JkQW5hbHl6ZXIgLT4gbW9uZ29kYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiV2lyZSBQcm90b2NvbC9UQ1AiCiAgICAgICAgICAgIGRpc2NvcmRBbmFseXplciAtPiByYWJiaXRtcSAiRW1pdHMgYW5kIGxpc3RlbnMgdG8gZXZlbnRzIHVzaW5nIiAiQU1RUCIKICAgICAgICAgICAgZGlzY29yZEFuYWx5emVyIC0+IG5lbzRqICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJCb2x0IFByb3RvY29sL1RDUCIKICAgICAgICAgICAgCiAgICAgICAgICAgIHR3aXR0ZXJCb3QgLT4gcmFiYml0bXEgIkVtaXRzIGFuZCBsaXN0ZW5zIHRvIGV2ZW50cyB1c2luZyIgIkFNUVAiCiAgICAgICAgICAgICMgdHdpdHRlckJvdCAtPiBtb25nb2RiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJXaXJlIFByb3RvY29sL1RDUCIKICAgICAgICAgICAgdHdpdHRlckJvdCAtPiB0d2l0dGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgoKICAgICAgICAgICAgIyB0d2l0dGVyQW5hbHl6ZXIgLT4gbW9uZ29kYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiV2lyZSBQcm90b2NvbC9UQ1AiCiAgICAgICAgICAgIHR3aXR0ZXJBbmFseXplciAtPiByYWJiaXRtcSAiRW1pdHMgYW5kIGxpc3RlbnMgdG8gZXZlbnRzIHVzaW5nIiAiQU1RUCIKICAgICAgICAgICAgdHdpdHRlckFuYWx5emVyIC0+IG5lbzRqICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJCb2x0IFByb3RvY29sL1RDUCIKCiAgICAgICAgfQoKICAgICAgICBncm91cCAiTW9uaXRvcmluZyIgewogICAgICAgICAgICBtb25pdG9yaW5nU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIk1vbml0b3JpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBncmFmYW5hID0gY29udGFpbmVyICJHcmFmYW5hIiAiRGFzaGJvYXJkIgogICAgICAgICAgICAgICAgbG9raSA9IGNvbnRhaW5lciAiTG9raSIgIkxvZyBEYXRhIgogICAgICAgICAgICAgICAgcHJvbWV0aGV1cyA9IGNvbnRhaW5lciAiUHJvbWV0aGV1cyIgIk1ldHJpY3MgRGF0YSIKICAgICAgICAgICAgICAgIGNhZHZpc29yID0gY29udGFpbmVyICJjQWR2aXNvciIgIkNvbnRhaW5lciBNZXRyaWNzIgogICAgICAgICAgICAgICAgbm9kZUV4cG9ydGVyID0gY29udGFpbmVyICJOb2RlIEV4cG9ydGVyIiAiTm9kZSBNZXRyaWNzIgogICAgICAgICAgICAgICAgc3RhdGVFeHBvcnRlciA9IGNvbnRhaW5lciAiRG9ja2VyIFN0YXRlIEV4cG9ydGVyIiAiQ29udGFpbmVyIFN0YXRlcyIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIlRhcmdldCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZW5naW5lZXIgLT4gbW9uaXRvcmluZ1N5c3RlbSAiVmlldyBsb2dzIGFuZCBtZXRyaWNzIgoKICAgICAgICAgICAgZW5naW5lZXIgLT4gZ3JhZmFuYSAiVmlzaXRzIC4uLiB1c2luZyIgIkhUVFBTIgogICAgICAgICAgICBncmFmYW5hIC0+IHByb21ldGhldXMgIlJlYWRzIGZyb20iCiAgICAgICAgICAgIGdyYWZhbmEgLT4gbG9raSAiUmVhZHMgZnJvbSIKICAgICAgICAgICAgcHJvbWV0aGV1cyAtPiBjYWR2aXNvciAiVXNlcyIKICAgICAgICAgICAgcHJvbWV0aGV1cyAtPiBub2RlRXhwb3J0ZXIgIlVzZXMiCiAgICAgICAgICAgIHByb21ldGhldXMgLT4gc3RhdGVFeHBvcnRlciAiVXNlcyIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgCiAgICAgICAgc3lzdGVtQ29udGV4dCBzb2Z0d2FyZVN5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHNvZnR3YXJlU3lzdGVtIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHN5c3RlbUNvbnRleHQgbW9uaXRvcmluZ1N5c3RlbSAiTW9uaXRvcmluZ0NvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBtb25pdG9yaW5nU3lzdGVtIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdGhlbWUgZGVmYXVsdAogICAgICAgIAogICAgICAgIHN0eWxlcyB7CiAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgZm9udFNpemUgMjIKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkN1c3RvbWVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJCYW5rIFN0YWZmIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkV4dGVybmFsIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlTGFuZHNjYXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgb3BhY2l0eSAyNQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlRhcmdldCIgewogICAgICAgICAgICAgICAgb3BhY2l0eSA1MAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCn0K"
@@ -10,35 +10,6 @@
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "1",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "user"
-      },
-      "name" : "User",
-      "description" : "A community manager",
-      "relationships" : [ {
-        "id" : "15",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "88277282-5107-41f6-98f5-8794f181ea8d"
-        },
-        "sourceId" : "1",
-        "destinationId" : "5",
-        "description" : "View metrics, configure settings"
-      }, {
-        "id" : "17",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "702e0e19-7787-4bf6-b165-b77c6f087342"
-        },
-        "sourceId" : "1",
-        "destinationId" : "6",
-        "description" : "Visits app.togethercrew.com using",
-        "technology" : "HTTPS"
-      } ],
-      "location" : "Unspecified"
-    }, {
       "id" : "2",
       "tags" : "Element,Person",
       "properties" : {
@@ -50,7 +21,7 @@
         "id" : "40",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "17da919d-9cd3-4563-9461-458c4b97fda6"
+          "structurizr.dsl.identifier" : "3efbc30a-9faa-489b-892b-f933c2f4b382"
         },
         "sourceId" : "2",
         "destinationId" : "33",
@@ -59,7 +30,7 @@
         "id" : "41",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "1d33dee8-3d2a-428d-8cdd-6766807a3ef9"
+          "structurizr.dsl.identifier" : "ad2bc4a5-99f8-4b29-ab60-128d60c5d0cc"
         },
         "sourceId" : "2",
         "destinationId" : "34",
@@ -67,8 +38,46 @@
         "technology" : "HTTPS"
       } ],
       "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "User",
+      "description" : "A community manager",
+      "relationships" : [ {
+        "id" : "17",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0e4d0039-b420-4fb1-8fcb-e07d64121ca6"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Visits app.togethercrew.com using",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "15",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2cb24b02-2182-4003-b8c7-0bb72c847c95"
+        },
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "View metrics, configure settings"
+      } ],
+      "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "discord"
+      },
+      "name" : "Discord API",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
       "id" : "33",
       "tags" : "Element,Software System",
       "properties" : {
@@ -78,24 +87,6 @@
       "group" : "Monitoring",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "39",
-        "tags" : "Element,Container,Target",
-        "properties" : {
-          "structurizr.dsl.identifier" : "stateexporter"
-        },
-        "name" : "Docker State Exporter",
-        "description" : "Container States",
-        "documentation" : { }
-      }, {
-        "id" : "38",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "nodeexporter"
-        },
-        "name" : "Node Exporter",
-        "description" : "Node Metrics",
-        "documentation" : { }
-      }, {
         "id" : "35",
         "tags" : "Element,Container",
         "properties" : {
@@ -103,15 +94,6 @@
         },
         "name" : "Loki",
         "description" : "Log Data",
-        "documentation" : { }
-      }, {
-        "id" : "37",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "cadvisor"
-        },
-        "name" : "cAdvisor",
-        "description" : "Container Metrics",
         "documentation" : { }
       }, {
         "id" : "34",
@@ -122,22 +104,22 @@
         "name" : "Grafana",
         "description" : "Dashboard",
         "relationships" : [ {
-          "id" : "43",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "456a647f-769b-4dbb-91da-73c301300491"
-          },
-          "sourceId" : "34",
-          "destinationId" : "35",
-          "description" : "Reads from"
-        }, {
           "id" : "42",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "c4daccca-efbd-43e5-b265-1e03690685bd"
+            "structurizr.dsl.identifier" : "8250f194-2e57-43a9-8c7f-85b2fea3ea32"
           },
           "sourceId" : "34",
           "destinationId" : "36",
+          "description" : "Reads from"
+        }, {
+          "id" : "43",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "19ebc710-2f4b-4685-8f34-94b407130efb"
+          },
+          "sourceId" : "34",
+          "destinationId" : "35",
           "description" : "Reads from"
         } ],
         "documentation" : { }
@@ -153,7 +135,7 @@
           "id" : "46",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "e883d360-d36a-47d2-8771-9168da6cf84b"
+            "structurizr.dsl.identifier" : "3f6b30d9-6e41-4d12-94f6-3913c586ca4a"
           },
           "sourceId" : "36",
           "destinationId" : "39",
@@ -162,7 +144,7 @@
           "id" : "44",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "6dfc426a-fa0f-498a-9aa3-e1322dd34f86"
+            "structurizr.dsl.identifier" : "f7f3785b-7b6c-4d22-888e-d26e9704a84f"
           },
           "sourceId" : "36",
           "destinationId" : "37",
@@ -171,12 +153,39 @@
           "id" : "45",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "a179fca1-bcd9-4869-b5e1-71227cb26055"
+            "structurizr.dsl.identifier" : "9c63a3e3-1f05-4155-b5ee-876966dc38dc"
           },
           "sourceId" : "36",
           "destinationId" : "38",
           "description" : "Uses"
         } ],
+        "documentation" : { }
+      }, {
+        "id" : "38",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "nodeexporter"
+        },
+        "name" : "Node Exporter",
+        "description" : "Node Metrics",
+        "documentation" : { }
+      }, {
+        "id" : "37",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "cadvisor"
+        },
+        "name" : "cAdvisor",
+        "description" : "Container Metrics",
+        "documentation" : { }
+      }, {
+        "id" : "39",
+        "tags" : "Element,Container,Target",
+        "properties" : {
+          "structurizr.dsl.identifier" : "stateexporter"
+        },
+        "name" : "Docker State Exporter",
+        "description" : "Container States",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -191,7 +200,7 @@
         "id" : "16",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "2778a308-f372-49c8-b379-f9a0c8b888b3"
+          "structurizr.dsl.identifier" : "da497334-0369-43e7-bab8-8a2d704db665"
         },
         "sourceId" : "5",
         "destinationId" : "3",
@@ -208,54 +217,6 @@
       "group" : "TogetherCrew",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "13",
-        "tags" : "Element,Container,Database",
-        "properties" : {
-          "structurizr.dsl.identifier" : "mongodb"
-        },
-        "name" : "MongoDB",
-        "description" : "Account and analytics data",
-        "documentation" : { }
-      }, {
-        "id" : "12",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "rabbitmq"
-        },
-        "name" : "RabbitMQ",
-        "description" : "Message broker",
-        "documentation" : { }
-      }, {
-        "id" : "11",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "twitteranalyzer"
-        },
-        "name" : "Twitter analyzer",
-        "description" : "Python",
-        "relationships" : [ {
-          "id" : "32",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "00f415b9-2db2-4644-9d59-577408d19fb8"
-          },
-          "sourceId" : "11",
-          "destinationId" : "14",
-          "description" : "Reads from and writes to",
-          "technology" : "Bolt Protocol/TCP"
-        }, {
-          "id" : "31",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "28963da4-cf3f-4059-b45a-faaf8e20728e"
-          },
-          "sourceId" : "11",
-          "destinationId" : "12",
-          "description" : "Emits and listens to events using",
-          "technology" : "AMQP"
-        } ],
-        "documentation" : { }
-      }, {
         "id" : "8",
         "tags" : "Element,Container",
         "properties" : {
@@ -264,10 +225,20 @@
         "name" : "Discord bot",
         "description" : "Javascript",
         "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2b71c891-c0d3-419c-ba03-59fe87b9321b"
+          },
+          "sourceId" : "8",
+          "destinationId" : "3",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
           "id" : "22",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "69c037f7-a5a0-4deb-bf46-a393fa4cf0e9"
+            "structurizr.dsl.identifier" : "c0afd9ab-0f96-42db-9aba-dc7105d8a91d"
           },
           "sourceId" : "8",
           "destinationId" : "12",
@@ -277,92 +248,12 @@
           "id" : "23",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "f2429b0a-5baa-474f-84cb-e443d20258b3"
+            "structurizr.dsl.identifier" : "00d52563-b0a3-44b8-bf92-7a44ab1e24f6"
           },
           "sourceId" : "8",
           "destinationId" : "13",
           "description" : "Reads from and writes to",
           "technology" : "Wire Protocol/TCP"
-        }, {
-          "id" : "24",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "0f5b1cca-78d3-43df-ad0d-f74e317536d8"
-          },
-          "sourceId" : "8",
-          "destinationId" : "3",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "9",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "discordanalyzer"
-        },
-        "name" : "Discord analyzer",
-        "description" : "Python",
-        "relationships" : [ {
-          "id" : "26",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "4a82351b-cbdc-4385-a284-f381d383f216"
-          },
-          "sourceId" : "9",
-          "destinationId" : "12",
-          "description" : "Emits and listens to events using",
-          "technology" : "AMQP"
-        }, {
-          "id" : "27",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "487d6878-10df-43e6-8ea5-5224014c342b"
-          },
-          "sourceId" : "9",
-          "destinationId" : "14",
-          "description" : "Reads from and writes to",
-          "technology" : "Bolt Protocol/TCP"
-        }, {
-          "id" : "25",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "b13de443-1ab5-4662-83d9-aebeb8bd1cde"
-          },
-          "sourceId" : "9",
-          "destinationId" : "13",
-          "description" : "Reads from and writes to",
-          "technology" : "Wire Protocol/TCP"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "10",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "twitterbot"
-        },
-        "name" : "Twitter bot",
-        "description" : "Python",
-        "relationships" : [ {
-          "id" : "28",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "93b4d71e-8b7c-4e37-89e0-6c412317a1e9"
-          },
-          "sourceId" : "10",
-          "destinationId" : "12",
-          "description" : "Emits and listens to events using",
-          "technology" : "AMQP"
-        }, {
-          "id" : "29",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "2d076d06-c74c-4db1-a8d7-a9a61ec0e362"
-          },
-          "sourceId" : "10",
-          "destinationId" : "4",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
         } ],
         "documentation" : { }
       }, {
@@ -377,52 +268,12 @@
           "id" : "18",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "70cc4fab-b299-4e17-8aea-213813e43563"
+            "structurizr.dsl.identifier" : "8965bdcb-9f23-44fb-b680-34c7e20e2e8a"
           },
           "sourceId" : "6",
           "destinationId" : "7",
           "description" : "Makes API calls to",
           "technology" : "JSON/HTTPS"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "7",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "api"
-        },
-        "name" : "api",
-        "description" : "Typescript and Express.js",
-        "relationships" : [ {
-          "id" : "20",
-          "tags" : "Relationship,Target",
-          "properties" : {
-            "structurizr.dsl.identifier" : "605e35b3-119e-4d0d-a693-d98f63a347f7"
-          },
-          "sourceId" : "7",
-          "destinationId" : "14",
-          "description" : "Reads from",
-          "technology" : "Bolt Protocol/TCP"
-        }, {
-          "id" : "19",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "c44c0b75-aaa7-41fd-92a5-589607d359f3"
-          },
-          "sourceId" : "7",
-          "destinationId" : "13",
-          "description" : "Reads from and writes to",
-          "technology" : "Wire Protocol/TCP"
-        }, {
-          "id" : "21",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "ab1555f8-738c-4d63-8ad1-5529be2aafc8"
-          },
-          "sourceId" : "7",
-          "destinationId" : "12",
-          "description" : "Emits and listens to events using",
-          "technology" : "AMQP"
         } ],
         "documentation" : { }
       }, {
@@ -434,16 +285,165 @@
         "name" : "Neo4j",
         "description" : "Analytics data",
         "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "rabbitmq"
+        },
+        "name" : "RabbitMQ",
+        "description" : "Message broker",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "api"
+        },
+        "name" : "api",
+        "description" : "Typescript and Express.js",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d0fadbdf-7a86-403d-8e34-4d8ee30944b2"
+          },
+          "sourceId" : "7",
+          "destinationId" : "12",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        }, {
+          "id" : "20",
+          "tags" : "Relationship,Target",
+          "properties" : {
+            "structurizr.dsl.identifier" : "6cbcdda1-bb18-449e-b4dc-d47be1eaf1b2"
+          },
+          "sourceId" : "7",
+          "destinationId" : "14",
+          "description" : "Reads from",
+          "technology" : "Bolt Protocol/TCP"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "05af8e1b-8487-4cb6-8dbb-23cae57d4740"
+          },
+          "sourceId" : "7",
+          "destinationId" : "13",
+          "description" : "Reads from and writes to",
+          "technology" : "Wire Protocol/TCP"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mongodb"
+        },
+        "name" : "MongoDB",
+        "description" : "Account and analytics data",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "discordanalyzer"
+        },
+        "name" : "Discord analyzer",
+        "description" : "Python",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "465f8290-a806-42bf-ba65-f7ecec367e7a"
+          },
+          "sourceId" : "9",
+          "destinationId" : "13",
+          "description" : "Reads from and writes to",
+          "technology" : "Wire Protocol/TCP"
+        }, {
+          "id" : "26",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "60f3e2fd-aca3-4e80-819a-87d522428c65"
+          },
+          "sourceId" : "9",
+          "destinationId" : "12",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3d13aa18-97a2-4bc6-a532-133ed1b60e80"
+          },
+          "sourceId" : "9",
+          "destinationId" : "14",
+          "description" : "Reads from and writes to",
+          "technology" : "Bolt Protocol/TCP"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "twitteranalyzer"
+        },
+        "name" : "Twitter analyzer",
+        "description" : "Python",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3d27eaef-da55-449a-9060-ce5dafc9d866"
+          },
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        }, {
+          "id" : "32",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "452c28e9-a002-41a1-81b3-bbc58fae2a23"
+          },
+          "sourceId" : "11",
+          "destinationId" : "14",
+          "description" : "Reads from and writes to",
+          "technology" : "Bolt Protocol/TCP"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "twitterbot"
+        },
+        "name" : "Twitter bot",
+        "description" : "Python",
+        "relationships" : [ {
+          "id" : "29",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "13950e46-8341-42f1-870a-02b4a02b4ecd"
+          },
+          "sourceId" : "10",
+          "destinationId" : "4",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3fb3feeb-9e51-4e5c-9b9b-28f708f5f9ed"
+          },
+          "sourceId" : "10",
+          "destinationId" : "12",
+          "description" : "Emits and listens to events using",
+          "technology" : "AMQP"
+        } ],
+        "documentation" : { }
       } ],
-      "documentation" : { }
-    }, {
-      "id" : "3",
-      "tags" : "Element,Software System,External",
-      "properties" : {
-        "structurizr.dsl.identifier" : "discord"
-      },
-      "name" : "Discord API",
-      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "4",
@@ -514,22 +514,81 @@
       "elements" : [ {
         "id" : "1",
         "x" : 600,
-        "y" : 200
+        "y" : 199
       }, {
         "id" : "3",
         "x" : 200,
-        "y" : 1500
+        "y" : 1499
       }, {
         "id" : "4",
         "x" : 950,
-        "y" : 1500
+        "y" : 1499
       }, {
         "id" : "5",
         "x" : 575,
-        "y" : 900
+        "y" : 899
       } ]
     } ],
     "containerViews" : [ {
+      "key" : "Container-002",
+      "order" : 4,
+      "softwareSystemId" : "33",
+      "dimensions" : {
+        "width" : 2390,
+        "height" : 2691
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "46"
+      } ],
+      "elements" : [ {
+        "id" : "34",
+        "x" : 595,
+        "y" : 900
+      }, {
+        "id" : "35",
+        "x" : 220,
+        "y" : 1500
+      }, {
+        "id" : "2",
+        "x" : 620,
+        "y" : 200
+      }, {
+        "id" : "36",
+        "x" : 970,
+        "y" : 1500
+      }, {
+        "id" : "37",
+        "x" : 220,
+        "y" : 2100
+      }, {
+        "id" : "38",
+        "x" : 970,
+        "y" : 2100
+      }, {
+        "id" : "39",
+        "x" : 1720,
+        "y" : 2100
+      } ]
+    }, {
       "key" : "Container-001",
       "order" : 2,
       "softwareSystemId" : "5",
@@ -547,9 +606,9 @@
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "relationships" : [ {
-        "id" : "32"
-      }, {
         "id" : "21"
+      }, {
+        "id" : "32"
       }, {
         "id" : "20"
       }, {
@@ -559,9 +618,9 @@
       }, {
         "id" : "18"
       }, {
-        "id" : "17"
-      }, {
         "id" : "28"
+      }, {
+        "id" : "17"
       }, {
         "id" : "27"
       }, {
@@ -629,65 +688,6 @@
         "id" : "10",
         "x" : 3219,
         "y" : 1500
-      } ]
-    }, {
-      "key" : "Container-002",
-      "order" : 4,
-      "softwareSystemId" : "33",
-      "dimensions" : {
-        "width" : 2390,
-        "height" : 2691
-      },
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "externalSoftwareSystemBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "41"
-      }, {
-        "id" : "42"
-      }, {
-        "id" : "43"
-      }, {
-        "id" : "44"
-      }, {
-        "id" : "45"
-      }, {
-        "id" : "46"
-      } ],
-      "elements" : [ {
-        "id" : "34",
-        "x" : 595,
-        "y" : 899
-      }, {
-        "id" : "35",
-        "x" : 220,
-        "y" : 1499
-      }, {
-        "id" : "2",
-        "x" : 620,
-        "y" : 199
-      }, {
-        "id" : "36",
-        "x" : 970,
-        "y" : 1499
-      }, {
-        "id" : "37",
-        "x" : 220,
-        "y" : 2099
-      }, {
-        "id" : "38",
-        "x" : 970,
-        "y" : 2099
-      }, {
-        "id" : "39",
-        "x" : 1720,
-        "y" : 2099
       } ]
     } ],
     "configuration" : {
