@@ -1,7 +1,8 @@
 workspace {
 
     model {
-        user = person "User" "A community manager."
+        user = person "User" "A community manager"
+        engineer = person "Engineer" "A TogetherCrew engineer"
         
         discord = softwareSystem "Discord API" "" "External"
         twitter = softwareSystem "Twitter API" "" "External"
@@ -57,6 +58,28 @@ workspace {
             twitterAnalyzer -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
 
         }
+
+        group "Monitoring" {
+            monitoringSystem = softwareSystem "Monitoring System" {
+                grafana = container "Grafana" "Dashboard"
+                loki = container "Loki" "Log Data"
+                prometheus = container "Prometheus" "Metrics Data"
+                cadvisor = container "cAdvisor" "Container Metrics"
+                nodeExporter = container "Node Exporter" "Node Metrics"
+                stateExporter = container "Docker State Exporter" "Container States" {
+                    tags "Target"
+                }
+            }
+
+            engineer -> monitoringSystem "View logs and metrics"
+
+            engineer -> grafana "Visits ... using" "HTTPS"
+            grafana -> prometheus "Reads from"
+            grafana -> loki "Reads from"
+            prometheus -> cadvisor "Uses"
+            prometheus -> nodeExporter "Uses"
+            prometheus -> stateExporter "Uses"
+        }
     }
 
     views {
@@ -67,6 +90,16 @@ workspace {
         }
 
         container softwareSystem {
+            include *
+            autoLayout
+        }
+
+        systemContext monitoringSystem "MonitoringContext" {
+            include *
+            autoLayout
+        }
+
+        container monitoringSystem {
             include *
             autoLayout
         }
