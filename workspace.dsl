@@ -13,13 +13,6 @@ workspace {
         
                 frontend = container "frontend" "Typescript and Next.js"
                 api = container "api" "Typescript and Express.js"
-
-                discordBot = container "Discord bot" "Javascript"
-                discordAnalyzer = container "Discord analyzer" "Python"
-
-                twitterBot = container "Twitter bot" "Python"
-                twitterAnalyzer = container "Twitter analyzer" "Python"
-                
                 rabbitmq = container "RabbitMQ" "Message broker"
 
                 mongodb = container "MongoDB" "Account and analytics data" {
@@ -27,6 +20,16 @@ workspace {
                 }
                 neo4j = container "Neo4j" "Analytics data" {
                     tags "Database"
+                }
+
+                discordBot = container "Discord bot" "Javascript"
+                discordAnalyzer = container "Discord analyzer" "Python"
+
+                twitterBot = container "Twitter bot" "Python" {
+                    tags "Target"
+                }
+                twitterAnalyzer = container "Twitter analyzer" "Python" {
+                    tags "Target"
                 }
             }
             
