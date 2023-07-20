@@ -6,36 +6,69 @@ workspace {
         
         discord = softwareSystem "Discord API" "" "External"
         twitter = softwareSystem "Twitter API" "" "External"
+
         
         group "TogetherCrew" {
-        
-            softwareSystem = softwareSystem "TogetherCrew System" {
-        
-                frontend = container "frontend" "Typescript and Next.js"
-                api = container "api" "Typescript and Express.js"
-                rabbitmq = container "RabbitMQ" "Message broker"
 
+            togetherCrewSystem = softwareSystem "Together Crew System" {
+                frontend = container "frontend" "Typescript and Next.js" {
+                    tags "Web Browser"
+                }
+                
+                api = container "api" "Typescript and Express.js"
+
+                rabbitmq = container "RabbitMQ" "Message broker" {
+                    tags "Message Bus"
+                }
                 mongodb = container "MongoDB" "Account and analytics data" {
                     tags "Database"
                 }
                 neo4j = container "Neo4j" "Analytics data" {
                     tags "Database"
                 }
-
-                discordBot = container "Discord bot" "Javascript"
-                discordAnalyzer = container "Discord analyzer" "Python"
-
-                twitterBot = container "Twitter bot" "Python" {
-                    tags "Target"
+                discordBotContainer = container "Discord Bot" {
+                    discordBot = component "Discord Bot" "Typescript"
+                    discordBotRedis = component "Discord Bot Redis" {
+                        tags "Database"
+                    }
+                    discordBot -> discordBotRedis
                 }
-                twitterAnalyzer = container "Twitter analyzer" "Python" {
-                    tags "Target"
+
+                    
+                discordAnalyzerContainer = container "Discord Analyzer" {
+                    discordAnalyzerServer = component "Discord Analyzer Server" "Python"
+                    discordAnalyzerWorker = component "Discord Analyzer Worker" "Python"
+                    discordAnalyzerRedis = component "Discord Analyzer Redis" {
+                        tags "Database"
+                    }
+                    discordAnalyzerServer -> discordAnalyzerRedis
+                    discordAnalyzerWorker -> discordAnalyzerRedis
+                }
+
+                twitterBotContainer = container "Twitter Bot" {
+                    twitterBotServer = component "Twitter Bot Server" "Python"
+                    twitterBotWorker = component "Twitter Bot Worker" "Python"
+                    twitterBotRedis = component "Twitter Bot Redis" {
+                        tags "Database"
+                    }
+                    twitterBotServer -> twitterBotRedis
+                    twitterBotWorker -> twitterBotRedis
+                }
+
+                twitterAnalyzerContainer = container "Twitter Analyzer" {
+                    twitterAnalyzerServer = component "Twitter Analyzer Server" "Python"
+                    twitterAnalyzerWorker = component "Twitter Analyzer Worker" "Python"
+                    twitterAnalyzerRedis = component "Twitter Analyzer Redis" {
+                        tags "Database"
+                    }
+                    twitterAnalyzerServer -> twitterAnalyzerRedis
+                    twitterAnalyzerWorker -> twitterAnalyzerRedis
                 }
             }
-            
+
             # relationship between people and software systems
-            user -> softwareSystem "View metrics, configure settings"
-            softwareSystem -> discord "Makes API calls to" "JSON/HTTPS"
+            user -> togetherCrewSystem "View metrics, configure settings"
+            togetherCrewSystem -> discord "Makes API calls to" "JSON/HTTPS"
             
             # relationships to/from containers
             user -> frontend "Visits app.togethercrew.com using" "HTTPS"
@@ -48,18 +81,20 @@ workspace {
             discordBot -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
             discordBot -> discord "Makes API calls to" "JSON/HTTPS"
 
-            discordAnalyzer -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            discordAnalyzer -> rabbitmq "Emits and listens to events using" "AMQP"
-            discordAnalyzer -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
+            discordAnalyzerServer -> rabbitmq "Listens to events using" "AMQP"
+            discordAnalyzerWorker -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
+            discordAnalyzerWorker -> rabbitmq "Emits to events using" "AMQP"
+            discordAnalyzerWorker -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
             
-            twitterBot -> rabbitmq "Emits and listens to events using" "AMQP"
-            # twitterBot -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            twitterBot -> twitter "Makes API calls to" "JSON/HTTPS"
+            twitterBotServer -> rabbitmq "Emits and listens to events using" "AMQP"
+            twitterBotWorker -> rabbitmq "Emits and listens to events using" "AMQP"
+            twitterBotWorker -> twitter "Makes API calls to" "JSON/HTTPS"
+            twitterBotWorker -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
 
-            # twitterAnalyzer -> mongodb "Reads from and writes to" "Wire Protocol/TCP"
-            twitterAnalyzer -> rabbitmq "Emits and listens to events using" "AMQP"
-            twitterAnalyzer -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
-
+            twitterAnalyzerServer -> rabbitmq "Emits and listens to events using" "AMQP"
+            twitterAnalyzerWorker -> rabbitmq "Emits and listens to events using" "AMQP"
+            twitterAnalyzerWorker -> neo4j "Reads from and writes to" "Bolt Protocol/TCP"
+        
         }
 
         group "Monitoring" {
@@ -69,9 +104,6 @@ workspace {
                 prometheus = container "Prometheus" "Metrics Data"
                 cadvisor = container "cAdvisor" "Container Metrics"
                 nodeExporter = container "Node Exporter" "Node Metrics"
-                stateExporter = container "Docker State Exporter" "Container States" {
-                    tags "Target"
-                }
             }
 
             engineer -> monitoringSystem "View logs and metrics"
@@ -81,20 +113,39 @@ workspace {
             grafana -> loki "Reads from"
             prometheus -> cadvisor "Uses"
             prometheus -> nodeExporter "Uses"
-            prometheus -> stateExporter "Uses"
         }
     }
 
     views {
     
-        systemContext softwareSystem "SystemContext" {
+        systemContext togetherCrewSystem "SystemContext" {
             include *
             autoLayout
         }
 
-        container softwareSystem {
+        container togetherCrewSystem {
             include *
             autoLayout
+        }
+
+        component discordBotContainer "DiscordBot" {
+            include *
+            # autoLayout
+        }
+
+        component discordAnalyzerContainer "DiscordAnalyzer" {
+            include *
+            # autoLayout
+        }
+
+        component twitterBotContainer "TwitterBot" {
+            include *
+            # autoLayout
+        }
+
+        component twitterAnalyzerContainer "TwitterAnalyzer" {
+            include *
+            # autoLayout
         }
 
         systemContext monitoringSystem "MonitoringContext" {
@@ -115,10 +166,10 @@ workspace {
                 fontSize 22
                 shape Person
             }
-            element "Customer" {
+            element "User" {
                 background #08427b
             }
-            element "Bank Staff" {
+            element "Engineer" {
                 background #999999
             }
             element "Software System" {
@@ -141,6 +192,9 @@ workspace {
             }
             element "Database" {
                 shape Cylinder
+            }
+            element "Message Bus" {
+                shape Pipe
             }
             element "Component" {
                 background #85bbf0
